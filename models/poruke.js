@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
-//const password = 'mongo2020'
-const password = process.env.ATLAS_PASS
+const password = 'mongo2020'
+//const password = process.env.ATLAS_PASS
 const dbname = 'adresar-api'
 const url = `mongodb+srv://Yopa:${password}@cluster0.mqqim.mongodb.net/${dbname}?retryWrites=true&w=majority`
 
