@@ -1,0 +1,8 @@
+PUT http://localhost:3001/api/poruke/3
+content-type: application/json
+
+{
+    "id":3,
+    "ime": "Nova Ana",
+    "email": "aanic@pmfst.hr"
+}
